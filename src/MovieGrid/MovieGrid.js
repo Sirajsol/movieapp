@@ -4,7 +4,9 @@ import Movie from "../Movie/Movie";
 import './MovieGrid.css'
 const MovieGrid=()=>{
     const [data,setData]=useState(['hi','hi','hi'])
-    const[searchTerm,setSearchTerm]=useState('*')
+    const[searchTerm,setSearchTerm]=useState('All')
+    const[searchYear,setSearchYear]=useState(2000)
+    
     const[searching,setSearching]=useState(false)
     const getd=async()=>{
         setSearching(true)

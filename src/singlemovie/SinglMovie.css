@@ -1,0 +1,40 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.singlecontainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left:10% ;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px blanchedalmond solid;
+}
+.singlecontainer img{
+width: 40%;
+height: 400px;
+border-radius: 8px;
+border: 1px gold solid;
+}
+.singlecontainer h1{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: rgb(24, 2, 74);
+    margin: 10px;
+}
+.singlecontainer p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    line-height: 30px;
+    margin: 10px;
+}

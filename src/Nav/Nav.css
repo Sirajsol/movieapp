@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navcontainer{
+    display: flex;
+    border-color: transparent;
+    width: 70%;
+margin-left: 15%;
+margin-top: 10px;
+}
+.navcontainer .listcont{
+    list-style: none;
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    justify-content: center;
+    /* border: 1px black solid; */
+    /* backdrop-filter: blur(35px); */
+}
+.navcontainer  .imgg{
+    display: flex;
+    flex: 1;
+    /* width: 80px;
+    height: 80px;
+    border-radius: 50%; */
+    /* border: 1px black solid; */
+}
+.navcontainer  .imgg img{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+.navcontainer .listcont .ull{
+   
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+    background-color: transparent;
+justify-content: center;
+
+}
+.navcontainer .listcont .ull li {
+list-style: none;
+    display: flex;
+    width: 30%;
+    color: white;
+    flex-direction: row;
+    color: yellow;
+    /* background-color: rgb(194, 149, 235); */
+    margin: 10px;
+    /* border: 1px gold solid; */
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    border-radius: 3px;
+}
+.navcontainer .listcont .ull li .lnkk{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    color: black;
+    flex-direction: row;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+font-size: 20px;
+}
+.navcontainer .listcont .ull li .lnkk::before{
+    content: ".";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: transparent;
+}
+.navcontainer .listcont .ull li .lnkk:hover::before{
+    content: ".";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: gold;
+}
+.navcontainer .listcont .ull li .lnkk:hover{
+    color: magenta;
+}
+
