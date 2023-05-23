@@ -23,9 +23,9 @@ label{
     width: 80%;
     /* background-color: rgb(52, 6, 68); */
     background-color: transparent;
-    position: relative;
+    position: absolute;
 flex-wrap: wrap;
-margin: 20px;
+margin: 0;
 border: 1px gold solid;
 backdrop-filter: blur(10px);
 }

@@ -17,9 +17,7 @@ return<div className="navcontainer">
     <li>
         <Link to={'/About'} className="lnkk">About</Link>
     </li>
-    <li>
-        <Link to={'/Home'}  className="lnkk">Home</Link>
-    </li>
+    
 </ul>
 </div>
 

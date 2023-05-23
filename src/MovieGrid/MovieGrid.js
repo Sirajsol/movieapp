@@ -10,7 +10,8 @@ const MovieGrid=()=>{
     const[searching,setSearching]=useState(false)
     const getd=async()=>{
         setSearching(true)
-        const d=await axios.get(`http://www.omdbapi.com/?s=${searchTerm}}&apikey=3fead2d3`)
+        const d=await axios.get(`https://www.omdbapi.com/?s=${searchTerm}}&apikey=3fead2d3`)
+        // https://api.themoviedb.org/3/movie/550?api_key=d6505cf610e00ffe2147813344cdde40
         const dat=await d.data
         if(dat.Search){
             setData(dat.Search)

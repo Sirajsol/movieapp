@@ -7,6 +7,7 @@ import MovieGrid from './MovieGrid/MovieGrid';
 import Nav from './Nav/Nav';
 import About from './about/About';
 import SingleMovie from './singlemovie/SinglMovie';
+import Hero from './hero/hero';
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
 <Nav/>
 
   <Routes>
+  <Route path='/' exact element={<Hero/>}/>
   <Route path='/About' element={<About/>}/>
   <Route path='/SingleMovie/:Title' element={<SingleMovie/>}/>
   <Route path='/Home' element={<MovieGrid/>}/>

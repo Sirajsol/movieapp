@@ -2,6 +2,7 @@
 padding: 0;
 box-sizing: border-box;
 }
+
 .singlecontainer{
     margin-top: 50px;
     display: flex;
@@ -13,6 +14,8 @@ box-sizing: border-box;
     background-color: transparent;
     backdrop-filter: blur(10px);
     border: 1px blanchedalmond solid;
+    position: absolute;
+    margin-top: 100px;
 }
 .singlecontainer img{
 width: 40%;
@@ -26,7 +29,17 @@ border: 1px gold solid;
     letter-spacing: 3px;
     background-color: transparent;
     backdrop-filter: blur(10px);
-    color: rgb(24, 2, 74);
+    color: rgb(10, 2, 61);
+    margin: 10px;
+}
+.singlecontainer h2{
+    font-size: 25px;
+    font-weight: 800;
+    width: 300px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: rgb(183, 214, 233);
     margin: 10px;
 }
 .singlecontainer p{
@@ -37,4 +50,24 @@ border: 1px gold solid;
     backdrop-filter: blur(10px);
     line-height: 30px;
     margin: 10px;
+}
+
+    
+@media screen and (max-width:800px) {
+    .singlecontainer{
+        height: 200x;
+    }
+    .singlecontainer img{
+        
+        height: 150px;
+       
+        }
+        .singlecontainer h2{
+            font-size: 15px;
+        }
+        .singlecontainer h1{
+            font-size: 20px;
+        }
+        .singlecontainer p{
+            font-size: 15px;}
 }

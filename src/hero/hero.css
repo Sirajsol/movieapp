@@ -1,0 +1,61 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+.videocon{
+    width: 100%;
+    height: 750px;
+    /* background-color: blue; */
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    top:0;
+ 
+}
+.bo{
+    display: flex;
+    width: 80%;
+    /* border: 1px gold solid; */
+    position: absolute;
+    flex-direction: column;
+    z-index: 2;
+    height: 100px;
+    top:70%;
+    left:10%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.bo p{
+    top: 0;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight:800 ;
+    letter-spacing: 3px;
+    position: absolute;
+}
+.bo .find{
+    display: flex;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    z-index: 3;
+    position: absolute;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 800;
+    top:80px;
+    cursor: pointer;
+    /* border: none; */
+}
+.bo .find:hover{
+    filter: drop-shadow(0 0 10px whitesmoke);
+   
+}
